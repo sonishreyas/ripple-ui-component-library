@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto:ital,wght@1,300&display=swap");
+:root {
+  --primary-color: #111827;
+  --secondary-background-color: #f3f4f6;
+  --background-color: #d4d4d8;
+  --hover-color: #d4d4d8;
+  --shadow-color: #9ca3af;
+  --zoom-card: 1.02;
+  --heading-font-1: #f1f5f9;
+  --chip-color: #d1d5db;
+  font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
+}

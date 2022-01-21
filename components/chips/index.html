@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ripple Chips Component</title>
+    <link rel="stylesheet" href="./src/root-styles.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/basic-chips.css" />
+    <link rel="stylesheet" href="./src/css/input-chips.css" />
+    <link rel="stylesheet" href="./src/css/input-chips-with-icon.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1 class="rdc-chips-type-heading">
+      Basic Chips
+    </h1>
+    <div class="rdc-chip--container">
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">HTML</p>
+        <p
+          onClick="this.parentElement.style.display = 'none'"
+          class="rdc-chip-cross"
+        >
+          x
+        </p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">CSS</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">JavaScript</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">React</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">NodeJS</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">Figma</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">Rest APIs</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">Python</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">C++</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+      <section class="rdc-basic-chip">
+        <p class="rdc-basic-chip-content">Java</p>
+        <p class="rdc-chip-cross">x</p>
+      </section>
+    </div>
+    <h1 class="rdc-chips-type-heading">
+      Input Chips
+    </h1>
+    <div class="rdc-chip--container rdc-input-chip--container">
+      <input type="text" class="rdc-input-chip--input" placeholder="Add here" />
+    </div>
+    <h1 class="rdc-chips-type-heading">
+      Input Chips With Icon
+    </h1>
+    <div class="rdc-chip--container rdc-input-chip-with-icon--container">
+      <input
+        type="text"
+        class="rdc-input-chip--input rdc-input-icon-chip--input"
+        placeholder="Add here"
+      />
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

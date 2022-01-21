@@ -1,0 +1,71 @@
+/* || Text Only Card with shadow */
+
+/* || Article Section */
+
+.rdc-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 23rem;
+  padding: 0 1.5rem 0 0;
+  margin: auto;
+  font-size: 2rem;
+  background: var(--card-background-color);
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  box-shadow: 1rem 1rem 1rem var(--shadow-color);
+}
+
+.rdc-cards:hover {
+  transform: scale(var(--zoom-card));
+}
+
+/* || Header Section */
+
+.rdc-card--header {
+  font-weight: bold;
+  border-bottom: 0.1rem solid;
+  margin: 0 0 1rem 1rem;
+}
+
+/* || Content Section */
+
+.rdc-card--content {
+  font-size: 1.6rem;
+  border-bottom: 0.1rem solid;
+  padding: 1rem;
+  margin: 0 0 1rem 1rem;
+}
+
+/* || Footer Section */
+
+.rdc-card--footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1rem 1rem;
+}
+
+.rdc-card--footer-right {
+  display: flex;
+  margin-left: auto;
+}
+
+.rdc-card--footer-btn {
+  width: 4rem;
+  height: 4rem;
+  background: var(--card-background-color);
+  border: 0;
+  cursor: pointer;
+}
+
+.rdc-card--footer-btn:hover {
+  border-radius: 5rem;
+  background: var(--hover-color);
+}
+
+.rdc-card--footer-icons {
+  width: 2.5rem;
+  height: 2.5rem;
+}

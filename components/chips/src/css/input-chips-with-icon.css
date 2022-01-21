@@ -1,0 +1,9 @@
+/* || Input Chips with icon*/
+
+/* || Card Icon */
+
+.rdc-chip-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5rem;
+}

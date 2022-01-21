@@ -1,0 +1,20 @@
+/* || All common Styling for all cards are in this file */
+
+/* || Body formatting */
+body {
+  background: var(--background-color);
+  box-sizing: border-box;
+}
+
+/* || Card Type Heading  */
+.rdc-card-type-heading {
+  padding: 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+
+/* || Card Containers */
+.rdc-cards--container {
+  display: flex;
+  flex-direction: row;
+}

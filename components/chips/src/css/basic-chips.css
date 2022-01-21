@@ -1,0 +1,27 @@
+/* || Chips Container */
+
+.rdc-basic-chip {
+  display: flex;
+  gap: 1rem;
+  background: var(--chip-color);
+  padding: 0 1rem 0 1rem;
+  flex-wrap: wrap;
+  min-width: 2rem;
+  align-items: center;
+  border-radius: 1.5rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.rdc-chip-cross {
+  background: var(--secondary-background-color);
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  padding: 0 0.5rem 0.15rem 0.5rem;
+  cursor: pointer;
+}
+
+.rdc-chip-cross:hover {
+  background: var(--primary-color);
+  color: var(--secondary-background-color);
+}

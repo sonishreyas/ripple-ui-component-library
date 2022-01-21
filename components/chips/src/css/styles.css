@@ -1,0 +1,27 @@
+/* || All common Styling for all Chips are in this file */
+
+/* || Body formatting */
+body {
+  background: var(--background-color);
+  box-sizing: border-box;
+}
+
+/* || Chips Type Heading  */
+.rdc-chips-type-heading {
+  padding: 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+  border-bottom: 0.1rem solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* || Chip Container */
+.rdc-chip--container {
+  display: flex;
+  background: var(--secondary-background-color);
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 1rem var(--shadow-color);
+  color: var(--primary-color);
+}
